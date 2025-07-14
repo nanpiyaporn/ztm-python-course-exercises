@@ -3,10 +3,10 @@ python = 'I am PYHTON'
 
 print(python[1:4]) # ' am '
 print(python[1:]) # ' am PYHTON'
-print(python[:]) # 
-print(python[1:100])
-print(python[-1])
-print(python[-4])
-print(python[:-3])
-print(python[-3:])
-print(python[::-1])
+print(python[:]) # 'I am PYHTON'
+print(python[1:100]) # ' am PYHTON'
+print(python[-1]) # 'N'
+print(python[-4]) # "H"
+print(python[:-3]) # 'I am PYH'
+print(python[-3:]) # 'HTON'
+print(python[::-1]) # 'NOTYHP ma I'
